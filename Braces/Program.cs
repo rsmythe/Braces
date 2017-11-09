@@ -56,6 +56,7 @@ namespace Braces
                     }
                     else
                     {
+                        // Closing brace with no openning brace automatically fails the test
                         return false;
                     }
                 }
